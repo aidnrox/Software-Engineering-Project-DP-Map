@@ -1,0 +1,7 @@
+The category filter also uses SQL in order to filter data.
+This works differently than the floor filter since we want to be able to see multiple categories at once if the user selects that.
+
+SQL:
+SELECT * FROM rooms WHERE type IN (<values>)
+Explanation: When the user clicks a category filter it adds that category to the <values>. For example, ('restroom', 'elevator') 
+would show both restrooms and elevators.
