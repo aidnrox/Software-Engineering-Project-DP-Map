@@ -1,0 +1,7 @@
+The floor selector button is an associated SQL query that filters the data based on what floor it is. 
+
+Floor 1 Button
+SELECT * FROM rooms WHERE floor = 1
+
+Floor 2 Button
+SELECT * FROM rooms WHERE floor = 1
